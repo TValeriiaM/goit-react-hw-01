@@ -1,0 +1,37 @@
+.transactionTable {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td, thead {
+    border: 2px solid #0e0d0e;
+}
+
+table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    
+}
+
+th,
+td {
+    padding: 4px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(47, 45, 45);
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #acaaac;
+}
