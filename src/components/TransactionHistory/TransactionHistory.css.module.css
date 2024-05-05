@@ -12,7 +12,7 @@ td, thead {
 
 table {
     table-layout: fixed;
-    width: 80%;
+    width: 60%;
     border-collapse: collapse;
     
 }
@@ -24,7 +24,7 @@ td {
 }
 
 thead {
-    background-color: rgb(47, 45, 45);
+    background-color: #2f2d2d;
     color: #fff;
 }
 
