@@ -6,7 +6,7 @@ export default function FriendListItem({ friend: { avatar, name, isOnline } }) {
   <img src={avatar} alt="Avatar" width="48" />
   <p className={css.friendName}>{name}</p>
         <p className={clsx(
-        isOnline === true ? css.offline : css.online
+        isOnline === true ? css.online : css.offline
       )}>
             {isOnline
         ? "Online"
